@@ -10,7 +10,7 @@ def delete_out_dir(out_dir):
 
 
 def copy_from_local(local_files, remote_dir):
-    print(local_files, remote_dir)
+#    print(local_files, remote_dir)
     subprocess.call(["hdfs", "dfs", "-copyFromLocal", local_files, remote_dir])
 
 

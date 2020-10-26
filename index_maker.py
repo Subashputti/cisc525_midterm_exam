@@ -79,9 +79,9 @@ class IndexMaker():
             im.write_index(local_file_name)
 
         print('\n\n')
-        print('   in_dir:', in_dir)
-        print('  out_dir:', out_dir)
-        print('local_dir:', local_dir)
+#        print('   in_dir:', in_dir)
+ #       print('  out_dir:', out_dir)
+  #      print('local_dir:', local_dir)
 
         util.copy_from_local(local_dir, out_dir)
 
